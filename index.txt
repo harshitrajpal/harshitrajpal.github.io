@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Harshit Rajpal
+Harshit Rajpal
+Cybersecurity Professional
 
 Show Contacts
 
 Email
-richard@example.com
+hr2404@nyu.edu
 
 Phone
-+1 (213) 352-2795
++1 (718)-XXX-XXXX
 
 Birthday
-June 23, 1982
+Aug 3, 1997
 
 Location
-Sacramento, California, USA
+Brooklyn, New York
 
 # navbar
 
