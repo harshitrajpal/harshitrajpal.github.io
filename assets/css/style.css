@@ -836,7 +836,25 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px; }
+.skills-list {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2;    /* Firefox */
+  column-count: 2;         /* standard syntax */
+  
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px;    /* Firefox */
+  column-gap: 40px;         /* standard syntax */
+  
+  list-style-type: none; /* Removes the default list style */
+  padding: 0; /* Removes the default padding */
+}
+
+.skills-item {
+  display: inline-block; /* This prevents items from breaking across columns */
+  width: 100%; /* Ensures the item takes up the full width of the column */
+  margin-bottom: 15px; 
+}
+
 
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
