@@ -61,7 +61,15 @@ const selectItems = document.querySelectorAll("[data-select-item]");
 const selectValue = document.querySelector("[data-selecct-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
-select.addEventListener("click", function () { elementToggleFunc(this); });
+document.addEventListener('DOMContentLoaded', function() {
+  const select = document.querySelector("[data-select]");
+  if (select) {
+    select.addEventListener("click", function () { elementToggleFunc(this); });
+  } else {
+    console.log("Element with [data-select] not found.");
+  }
+});
+
 
 // add event in all select items
 for (let i = 0; i < selectItems.length; i++) {
